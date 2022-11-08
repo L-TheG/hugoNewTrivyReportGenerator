@@ -6,3 +6,5 @@ Clone this repository using ```git clone --recursive https://github.com/L-TheG/t
 
 To Manually execute this site, put all markdown files into a ```/content``` directory.
 Then run ```hugo server```. Your Site will be available at localhost:1313
+
+TODO: consider using git submodules to integrate the report generator (https://github.com/L-TheG/trivyReportToHugoMd)
