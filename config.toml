@@ -1,9 +1,10 @@
 baseURL = "/"
 relativeURLs = "True"
+uglyURLs = "True"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Vulnerability-Report summary"
+title = "Vulnerability-Report Summary"
 theme = "docdock"
 # themesdir = "../.."
 pygmentsCodeFences = true
@@ -16,6 +17,8 @@ enableMissingTranslationPlaceholders = false
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
+unsafe = true
+xhtml = false
 
 [params]
 editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
